@@ -352,28 +352,7 @@
       shutter: 1/1250
       iso: 200
       date: 1432485202
-      film: OLYMPUS DIGITAL CAMERA
       description: OLYMPUS DIGITAL CAMERA
-    - filename: 20150524-13th-frame.jpg
-      width: 1280
-      height: 853
-      camera: OLYMPUS E-M10
-      lens: LUMIX G 20/F1.7 II
-      focal: 20
-      aperture: 2.8
-      shutter: 1/1600
-      iso: 200
-      date: 1432484778
-    - filename: 20150524-13th-fence.jpg
-      width: 1280
-      height: 853
-      camera: OLYMPUS E-M10
-      lens: LUMIX G 20/F1.7 II
-      focal: 20
-      aperture: 2.8
-      shutter: 1/1250
-      iso: 200
-      date: 1432485202
 2015-07-01-indo:
   title: Indo
   date: '2015-07-01'

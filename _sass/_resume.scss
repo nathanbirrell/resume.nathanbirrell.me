@@ -1,0 +1,192 @@
+.resume {
+  &.wrapper {
+    margin: 14px 24px;
+    max-width: none;
+
+    @include breakpoint($wide-desktop-up) {
+      max-width: 1400px;
+      margin: 14px auto;
+    }
+  }
+
+  .column {
+    margin: 14px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .resume__column {
+    width: 100%;
+
+    @include breakpoint($tablet-up) {
+      padding: 0 14px;
+
+      &:nth-of-type(2n+1) {
+        width: 35%;
+      }
+      &:nth-of-type(2n) {
+        width: 65%;
+      }
+    }
+  }
+
+  .resume__experience {
+    @include breakpoint($tablet-up) {
+      display: flex;
+
+      .resume__experience-company {
+        width: 30%;
+        padding-right: 12px;
+      }
+      .resume__experience-description {
+        width: 70%;
+      }
+    }
+  }
+
+  @include breakpoint($mobile-only) {
+    .resume__experience-company {
+      display: flex;
+      margin-top: 14px;
+
+      * {
+        width: 50%;
+      }
+
+      p {
+        text-align: right;
+      }
+    }
+  }
+
+  @include breakpoint($tablet-up) {
+    .resume__half {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .resume__half div {
+      width: 50%;
+      padding-right: 14px;
+    }
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    border-bottom: 0.1em solid $dark-grey;
+
+    @include breakpoint($tablet-up) {
+      margin: 0 14px;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+
+  h4 {
+    color: $primary-colour;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  p,
+  ul,
+  ol,
+  span {
+    margin-top: 0;
+    font-size: 0.95em;
+  }
+
+  // Skill percentage CSS
+
+  .skills {
+    list-style: none;
+    padding: 0 14px;
+  }
+
+  .skill-percentage {
+    margin-bottom: 10px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 6px;
+      background: $grey;
+      display: block;
+      margin-top: 3px;
+    }
+
+    &::before {
+      content: "";
+      height: 6px;
+      background: $primary-colour;
+      position: absolute;
+      margin-top: 3px;
+      bottom: 0;
+    }
+
+    $time: 0.6s;
+
+    &.skill-90::before {
+      width: 90%;
+      animation: skill_90 $time ease;
+    }
+
+    &.skill-80::before {
+      width: 80%;
+      animation: skill_80 $time ease;
+    }
+
+    &.skill-60::before {
+      width: 60%;
+      animation: skill_60 $time ease;
+    }
+
+    &.skill-40::before {
+      width: 40%;
+      animation: skill_40 $time ease;
+    }
+
+    &.skill-20::before {
+      width: 20%;
+      animation: skill_40 $time ease;
+    }
+  }
+
+  @keyframes skill_90 {
+    from { width: 0; }
+    to { width: 90%; }
+  }
+  @keyframes skill_80 {
+    from { width: 0; }
+    to { width: 80%; }
+  }
+  @keyframes skill_60 {
+    from { width: 0; }
+    to { width: 60%; }
+  }
+  @keyframes skill_40 {
+    from { width: 0; }
+    to { width: 40%; }
+  }
+  @keyframes skill_20 {
+    from { width: 0; }
+    to { width: 20%; }
+  }
+}

@@ -7,24 +7,28 @@
 
 // Colours
 $primary-colour: #4A4A4A;
-$dark-grey: #4A4A4A;
+$dark-grey: #333333;
+$medium-grey: #4A4A4A;
 $grey: #CCCCCC;
 $black: #000;
+$off-white: #fefefe;
 $white: #fff;
 
 // Breakpoints
 
-$mobile-only: 0px 320px;
+$mobile-only: 0px 768px;
 $tablet-up: 768px;
 $desktop-up: 1024px;
+$wide-desktop-up: 1440px;
 
 // Fonts
-$main-font: 'Chivo', serif;
-// $open-sans: 'Open Sans', sans-serif;
+@import "font.scss";
+$main-font: 'iosevka', 'Helvetica', 'Arial', sans-serif;
 
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 600;
+$font-weight-heavy: 700;
 
 // Global stuff
 @import "normalize";
@@ -34,6 +38,7 @@ $font-weight-bold: 700;
 @import "site-header";
 @import "gallery";
 @import "paginator";
+@import "resume";
 @import "photo-block";
 @import "photoswipe";
 @import "site-footer";
