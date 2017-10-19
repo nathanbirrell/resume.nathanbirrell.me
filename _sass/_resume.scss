@@ -50,8 +50,9 @@
       flex-wrap: wrap;
       margin-top: 14px;
 
-      p {
+      p.time {
         text-align: right;
+        margin-left: auto;
       }
 
       h2, ul {
