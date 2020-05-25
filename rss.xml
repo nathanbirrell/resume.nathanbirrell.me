@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nathan Birrell]]></title><description><![CDATA[Software engineer, primarily focussed on Javascript web application development.]]></description><link>https://nathanbirrell.me</link><generator>RSS for Node</generator><lastBuildDate>Tue, 18 Feb 2020 10:26:43 GMT</lastBuildDate><item><title><![CDATA[Curriculum Vitae]]></title><description><![CDATA[❌  Not seeking work About Determined to make the web a better place with beautiful, maintainable, accessible and thought-out software…]]></description><link>https://nathanbirrell.me/resume/</link><guid isPermaLink="false">https://nathanbirrell.me/resume/</guid><pubDate>Wed, 05 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;small&gt;❌ &lt;strong&gt;Not seeking work&lt;/strong&gt;&lt;/small&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nathan Birrell]]></title><description><![CDATA[Software engineer, primarily focussed on Javascript web application development.]]></description><link>https://nathanbirrell.me</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 May 2020 01:15:35 GMT</lastBuildDate><item><title><![CDATA[Curriculum Vitae]]></title><description><![CDATA[❌  Not seeking work About Determined to make the web a better place with beautiful, maintainable, accessible and thought-out software…]]></description><link>https://nathanbirrell.me/resume/</link><guid isPermaLink="false">https://nathanbirrell.me/resume/</guid><pubDate>Wed, 05 Sep 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;small&gt;❌ &lt;strong&gt;Not seeking work&lt;/strong&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;!-- Available full-time from: **July 2018**. --&gt;
 &lt;h2&gt;About&lt;/h2&gt;
 &lt;p&gt;Determined to make the web a better place with beautiful, maintainable, accessible and thought-out software applications.&lt;/p&gt;
@@ -9,8 +9,14 @@
 &lt;li&gt;Typically thrive in empowered, self-sufficient and multidisciplinary teams. Keen interest in process, lean philosophy and improving the way we work.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Experience&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;https://stax.io/&quot;&gt;Stax&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Oct 2018 - present&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Building and managing strategy around our frontend application&lt;/li&gt;
+&lt;li&gt;Tech: Typescript, GraphQL, Apollo, React, Jest, Lambda and other AWS fun&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;&lt;a href=&quot;https://beta.weather.bom.gov.au/&quot;&gt;Bureau of Meteorology&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Mar 2018 - present (contract)&lt;/p&gt;
+&lt;p&gt;Mar 2018 - Oct 2018&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Working on a project team to build a completely new weather experience for BOM’s general public audience.&lt;/li&gt;
 &lt;li&gt;One of Australia’s &lt;a href=&quot;https://www.alexa.com/topsites/countries/AU&quot;&gt;top 40&lt;/a&gt; websites by traffic.&lt;/li&gt;
